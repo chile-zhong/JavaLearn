@@ -6,19 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Springboot2_mybatis" />
+        <module name="Spring_ioc" />
+        <module name="JavaSE" />
+        <module name="Xml" />
+        <module name="Oracle" />
+        <module name="Spring" />
         <module name="Springboot1" />
         <module name="Redis" />
-        <module name="JavaSE" />
-        <module name="Spring_ioc" />
+        <module name="Reflect" />
+        <module name="Springboot2_mybatis" />
+        <module name="Arithmetic" />
+        <module name="MySql" />
+        <module name="Spring_mvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Arithmetic" target="8" />
       <module name="JavaSE" target="1.5" />
+      <module name="MySql" target="1.5" />
+      <module name="Oracle" target="1.5" />
       <module name="Redis" target="1.5" />
+      <module name="Reflect" target="6" />
+      <module name="Spring" target="1.5" />
       <module name="Spring_ioc" target="1.5" />
+      <module name="Spring_mvc" target="1.5" />
       <module name="Springboot1" target="1.8" />
       <module name="Springboot2_mybatis" target="1.8" />
+      <module name="Xml" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

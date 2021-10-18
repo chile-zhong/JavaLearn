@@ -1,0 +1,40 @@
+## 配置端口号
+server:
+    port: 8080
+    address: 127.0.0.1
+
+
+## 自定义属性
+name: 张无忌
+my:
+    name: zhangsan
+    age: 20
+    number: ${random.int}
+    uuid: ${random.uuid}
+    max: ${random.int(10)}
+    value: ${random.value}
+    greeting: hi,i'm  ${my.name}  #参数引用 ${key}
+
+
+# 对象
+person:
+    name: zhangsan
+    age: 20
+    sex: 男
+    likes:
+        - book
+        - movie
+        - girl
+## 对象行内写法
+person1: {name: lisi,age: 30}
+
+# 数组
+address:
+    - beijing
+    - shanghai
+## 数组行内写法
+address1: [beijing,shanghai]
+
+# 纯量
+msg1: 'hello \n world' # 单引号忽略转义字符
+msg2: "hello \n world" # 双引号识别转义字符

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!--配置Servlet的别名，同时在servlet-class中添加servlet的全限定名  包名+类名-->
+    <servlet>
+        <servlet-name>myServlet</servlet-name>
+        <servlet-class>com.lxg.servlet.MyServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>life</servlet-name>
+        <servlet-class>com.lxg.servlet.ServletLife</servlet-class>
+        <!--配置后，打开服务器时就开始创建Servlet了-->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>methodServlet</servlet-name>
+        <servlet-class>com.lxg.servlet.MethodServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RequestServlet</servlet-name>
+        <servlet-class>com.lxg.servlet.RequestServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ResponseServlet</servlet-name>
+        <servlet-class>com.lxg.servlet.ResponseServlet</servlet-class>
+    </servlet>
+    
+    <!--用来获取登录页面的Servlet-->
+    <servlet>
+        <servlet-name>PageServlet</servlet-name>
+        <servlet-class>com.lxg.control.PageServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.lxg.control.LoginServlet</servlet-class>
+    </servlet>
+
+    <!--配置Servlet跟请求的映射关系-->
+    <servlet-mapping>
+        <servlet-name>myServlet</servlet-name>
+        <url-pattern>/first</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>life</servlet-name>
+        <url-pattern>/life</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>methodServlet</servlet-name>
+        <url-pattern>/method</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RequestServlet</servlet-name>
+        <url-pattern>/request</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ResponseServlet</servlet-name>
+        <url-pattern>/response</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>PageServlet</servlet-name>
+        <url-pattern>/page</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+</web-app>

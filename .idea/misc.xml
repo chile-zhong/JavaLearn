@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/travel" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -18,6 +21,10 @@
         <option value="$PROJECT_DIR$/Spring/pom.xml" />
         <option value="$PROJECT_DIR$/Reflect/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/Servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/JSP/pom.xml" />
+        <option value="$PROJECT_DIR$/DesignPts/pom.xml" />
+        <option value="$PROJECT_DIR$/travel/pom.xml" />
       </list>
     </option>
   </component>

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Ajax/Ajax.iml" filepath="$PROJECT_DIR$/Ajax/Ajax.iml" />
       <module fileurl="file://$PROJECT_DIR$/Arithmetic/Arithmetic.iml" filepath="$PROJECT_DIR$/Arithmetic/Arithmetic.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPts/DesignPts.iml" filepath="$PROJECT_DIR$/DesignPts/DesignPts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate/Hibernate.iml" filepath="$PROJECT_DIR$/Hibernate/Hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSP/JSP.iml" filepath="$PROJECT_DIR$/JSP/JSP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaLearn.iml" filepath="$PROJECT_DIR$/.idea/JavaLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaSE/JavaSE.iml" filepath="$PROJECT_DIR$/JavaSE/JavaSE.iml" />
@@ -19,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring_mvc/Spring_mvc.iml" filepath="$PROJECT_DIR$/Spring_mvc/Spring_mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/Springboot1/Springboot1.iml" filepath="$PROJECT_DIR$/Springboot1/Springboot1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Springboot2_mybatis/Springboot2_mybatis.iml" filepath="$PROJECT_DIR$/Springboot2_mybatis/Springboot2_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Struts2/Struts2.iml" filepath="$PROJECT_DIR$/Struts2/Struts2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Web/Web.iml" filepath="$PROJECT_DIR$/Web/Web.iml" />
       <module fileurl="file://$PROJECT_DIR$/Xml/Xml.iml" filepath="$PROJECT_DIR$/Xml/Xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/travel/travel.iml" filepath="$PROJECT_DIR$/travel/travel.iml" />

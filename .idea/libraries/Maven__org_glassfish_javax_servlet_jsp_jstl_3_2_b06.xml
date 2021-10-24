@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.glassfish:javax.servlet.jsp.jstl:3.2-b06">
+    <CLASSES>
+      <root url="jar://D:/Program Files/apache-maven-3.8.1/maven-repository/org/glassfish/javax.servlet.jsp.jstl/3.2-b06/javax.servlet.jsp.jstl-3.2-b06.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Program Files/apache-maven-3.8.1/maven-repository/org/glassfish/javax.servlet.jsp.jstl/3.2-b06/javax.servlet.jsp.jstl-3.2-b06-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Program Files/apache-maven-3.8.1/maven-repository/org/glassfish/javax.servlet.jsp.jstl/3.2-b06/javax.servlet.jsp.jstl-3.2-b06-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -27,5 +27,17 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.66" level="application_server_libraries" />
+    <orderEntry type="library" name="Maven: org.glassfish:javax.servlet.jsp.jstl:3.2-b06" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:jstl:1.0" level="project" />
+    <orderEntry type="module-library">
+      <library name="javax.servlet.jsp.jstl">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jstl-impl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -7,12 +7,16 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Ajax" />
           <element id="module-output" name="Servlet" />
+          <element id="module-output" name="JSP" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
           <element id="library" level="project" name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.3" />
+          <element id="library" level="project" name="Maven: org.glassfish:javax.servlet.jsp.jstl:3.2-b06" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.0" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="JSP/web/Web" />
     </root>
   </artifact>
 </component>

@@ -7,20 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Redis" />
-        <module name="JavaSE" />
+        <module name="Oracle" />
         <module name="Xml" />
         <module name="travel" />
         <module name="Spring_ioc" />
         <module name="DesignPts" />
-        <module name="Oracle" />
         <module name="Servlet" />
         <module name="Spring" />
         <module name="Spring_mvc" />
         <module name="Springboot1" />
+        <module name="JavaSE" />
         <module name="Reflect" />
         <module name="Springboot2_mybatis" />
         <module name="JSP" />
         <module name="MySql" />
+        <module name="Struts2" />
         <module name="Arithmetic" />
       </profile>
     </annotationProcessing>
@@ -39,6 +40,7 @@
       <module name="Spring_mvc" target="1.5" />
       <module name="Springboot1" target="1.8" />
       <module name="Springboot2_mybatis" target="1.8" />
+      <module name="Struts2" target="1.5" />
       <module name="travel" target="1.8" />
       <module name="Xml" target="1.5" />
     </bytecodeTargetLevel>

@@ -44,6 +44,12 @@ public class Servlet2 implements Servlet {
      */
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         System.out.println("service...");
+
+        /*ServletConfig servletConfig = getServletConfig();
+        servletConfig.getInitParameter("init");//获取初始化参数值
+        servletConfig.getInitParameterNames();//获取所有初始化参数名称
+        servletConfig.getServletContext();//获取Servlet上下文对象
+        servletConfig.getServletName();//获取Servlet对象的实例名*/
     }
 
     /**

@@ -10,15 +10,24 @@
         <module name="Oracle" />
         <module name="Xml" />
         <module name="travel" />
+        <module name="Springboot3_web" />
+        <module name="SSM" />
         <module name="Spring_ioc" />
         <module name="DesignPts" />
+        <module name="Springboot1" />
         <module name="Servlet" />
         <module name="Spring" />
         <module name="Spring_mvc" />
-        <module name="Springboot1" />
-        <module name="JavaSE" />
+        <module name="Springboot5_mybatis" />
+        <module name="Springboot6_jpa" />
+        <module name="Springboot3_Thymeleaf" />
+        <module name="Springboot2" />
+        <module name="Filter" />
+        <module name="Spring_aop" />
+        <module name="SSH" />
         <module name="Reflect" />
-        <module name="Springboot2_mybatis" />
+        <module name="Springboot4_jdbctemplate" />
+        <module name="JavaSE" />
         <module name="JSP" />
         <module name="MySql" />
         <module name="Struts2" />
@@ -28,6 +37,7 @@
     <bytecodeTargetLevel>
       <module name="Arithmetic" target="8" />
       <module name="DesignPts" target="1.5" />
+      <module name="Filter" target="1.5" />
       <module name="JavaSE" target="1.5" />
       <module name="JSP" target="1.5" />
       <module name="MySql" target="1.5" />
@@ -36,10 +46,21 @@
       <module name="Reflect" target="6" />
       <module name="Servlet" target="1.5" />
       <module name="Spring" target="1.5" />
+      <module name="Spring_aop" target="1.5" />
       <module name="Spring_ioc" target="1.5" />
       <module name="Spring_mvc" target="1.5" />
       <module name="Springboot1" target="1.8" />
+      <module name="Springboot2" target="1.8" />
       <module name="Springboot2_mybatis" target="1.8" />
+      <module name="Springboot3" target="1.8" />
+      <module name="springboot3" target="1.5" />
+      <module name="Springboot3_Thymeleaf" target="1.5" />
+      <module name="Springboot3_web" target="1.8" />
+      <module name="Springboot4_jdbctemplate" target="1.8" />
+      <module name="Springboot5_mybatis" target="1.8" />
+      <module name="Springboot6_jpa" target="1.8" />
+      <module name="SSH" target="1.5" />
+      <module name="SSM" target="1.5" />
       <module name="Struts2" target="1.5" />
       <module name="travel" target="1.8" />
       <module name="Xml" target="1.5" />
@@ -48,7 +69,13 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Springboot1" options="-parameters" />
+      <module name="Springboot2" options="-parameters" />
       <module name="Springboot2_mybatis" options="-parameters" />
+      <module name="Springboot3" options="-parameters" />
+      <module name="Springboot3_web" options="-parameters" />
+      <module name="Springboot4_jdbctemplate" options="-parameters" />
+      <module name="Springboot5_mybatis" options="-parameters" />
+      <module name="Springboot6_jpa" options="-parameters" />
     </option>
   </component>
 </project>

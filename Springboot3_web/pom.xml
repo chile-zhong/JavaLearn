@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.5.5</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.lxg</groupId>
+    <artifactId>springboot3_web</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>springboot3_web</name>
+    <description>Demo project for Spring Boot</description>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+    <dependencies>
+        <!--
+        JSON是目前主流的前后端数据传输方式，Spring MVC中使用消息转换器HttpMessageConverter
+        对JSON的转换提供了很好的支持，在Springboot中，引入了spring-boot-starter-web这个依赖，
+        就默认加入了jackson-datanbind作为JSON处理器，此时不需要添加额外的JSON处理器就能返回一段JSON。
+        -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+
+            <!--除去默认的jackson-databind-->
+            <exclusions>
+                <exclusion>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>jackson-databind</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!--
+        Gson:
+        是Google的一个开源JSON解析框架，使用GSON，需要先除去默认的jackson-databind,然后加入GSON依赖
+        Springboot提供了Gson的自动转换类GsonHttpMessageConvertersConfiguration,因此在添加了依赖后，
+        可以象使用jackson-databind那样直接使用，但是想对日期数据进行格式化，需要自定义HttpMessageConverter.
+        -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
+
+        <!--
+        fastjson:
+        阿里巴巴开源的JSON解析框架，是目前JSON解析速度最快的开源框架，fastjson继承完成之后不能使用
+        需要提供相应的HttpMessageConverter后才能使用。
+        -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

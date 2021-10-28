@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    一般正常的bean配置
+    用于配置对象交由Spring 来创建。默认情况下它调用的是类中的无参构造函数，如果没有无参构造函数则不能创建成功。
+     id：Bean实例在Spring容器中的唯一标识
+     class：Bean的全限定名称
+    -->
+    <bean id="userDao" class="com.lxg.spring1.dao.impl.UserDaoImpl">
+    </bean>
+
+</beans>

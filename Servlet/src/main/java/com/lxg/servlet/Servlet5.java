@@ -9,10 +9,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * @author lxg
- * @description 集成HttpServlet
- * @date 2021/10/18
- *
+ * HttpServlet:
+ * HttpServlet继承了GenericServlet类,通过其对GenericServlet类的扩展,可以很方便的对HTTP
+ * 请求进行处理及响应.
  *
  */
 @WebServlet("/servlet5")

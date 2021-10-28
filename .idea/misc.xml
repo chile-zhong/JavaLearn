@@ -12,7 +12,6 @@
         <option value="$PROJECT_DIR$/JavaSE/pom.xml" />
         <option value="$PROJECT_DIR$/Springboot1/pom.xml" />
         <option value="$PROJECT_DIR$/Redis/pom.xml" />
-        <option value="$PROJECT_DIR$/Springboot2_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_ioc/pom.xml" />
         <option value="$PROJECT_DIR$/Xml/pom.xml" />
         <option value="$PROJECT_DIR$/MySql/pom.xml" />
@@ -26,6 +25,16 @@
         <option value="$PROJECT_DIR$/DesignPts/pom.xml" />
         <option value="$PROJECT_DIR$/travel/pom.xml" />
         <option value="$PROJECT_DIR$/Struts2/pom.xml" />
+        <option value="$PROJECT_DIR$/Filter/pom.xml" />
+        <option value="$PROJECT_DIR$/SSM/pom.xml" />
+        <option value="$PROJECT_DIR$/SSH/pom.xml" />
+        <option value="$PROJECT_DIR$/Springboot2/pom.xml" />
+        <option value="$PROJECT_DIR$/Springboot3_Yhymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/Springboot3_web/pom.xml" />
+        <option value="$PROJECT_DIR$/Springboot4_jdbctemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/Springboot5_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/Springboot6_jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_aop/pom.xml" />
       </list>
     </option>
   </component>

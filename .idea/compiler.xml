@@ -17,6 +17,7 @@
         <module name="Springboot1" />
         <module name="Servlet" />
         <module name="Spring" />
+        <module name="Spring_transaction" />
         <module name="Spring_mvc" />
         <module name="Springboot5_mybatis" />
         <module name="Springboot6_jpa" />
@@ -49,6 +50,7 @@
       <module name="Spring_aop" target="1.5" />
       <module name="Spring_ioc" target="1.5" />
       <module name="Spring_mvc" target="1.5" />
+      <module name="Spring_transaction" target="1.5" />
       <module name="Springboot1" target="1.8" />
       <module name="Springboot2" target="1.8" />
       <module name="Springboot2_mybatis" target="1.8" />

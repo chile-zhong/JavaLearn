@@ -26,6 +26,24 @@
           ></bean>-->
 
 
+    <!--
+    bean的配置：
+    常用的属性和子元素
+    id: 唯一标识
+    name:为Bean指定名称，可以指定多个，每个用逗号隔开
+    class:指向Bean的全限定类名
+    scope:Bean的作用域，属性值默认为singleton(单例)，除了这个还有，prototype（原型）、request
+            session\global Session、application和Websocket
+    constructor-arg:使用构造方法进行注入
+    property:用于调用setter方法进行属性的注入 用ref后者value指定参数值
+    ref:指向某个引用
+    value:指向一个基本类型的常量值
+    list:封装List或数组的依赖注入
+    set:封装Set类属性的依赖注入
+    map:封装Map类属性的依赖注入
+    entry:<map>的子元素，用于设置一个键值对。其key属性指向字符串类型的键值
+          ref或者value指向元素值
+    -->
     <bean id="userDao" class="com.lxg.spring4.dao.impl.UserDaoImpl"></bean>
     <bean id="userService" class="com.lxg.spring4.service.impl.UserServiceImpl">
         <property name="userDao" ref="userDao"></property>

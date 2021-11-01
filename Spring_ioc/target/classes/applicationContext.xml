@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <beans>
+        <bean id="test" class="com.lxg.dao.impl.TestDaoImpl"></bean>
+
+        <bean id="user" class="com.lxg.model.User">
+            <property name="name" value="张三"></property>
+            <property name="age" value="18"></property>
+            <property name="gender" value="男"></property>
+            <property name="adde" value="北京"></property>
+            <property name="likes">
+                <list>
+                    <value>读书</value>
+                    <value>运动</value>
+                    <value>吃饭</value>
+                </list>
+            </property>
+        </bean>
+
+        <bean id="userDao" class="com.lxg.dao.impl.UserDaoImpl">
+            <property name="user" ref="user"></property>
+        </bean>
+
+        <bean id="userService" class="com.lxg.service.impl.UserServiceImpl">
+            <property name="userDao" ref="userDao"></property>
+        </bean>
+    </beans>
+
+
+</beans>

@@ -99,7 +99,6 @@
 - 你没有配置tomcat ;springboot内嵌tomcat.
 
 ## 启动springboot 方式
-
 - cd到项目主目录:
 > mvn clean  
   mvn package  编译项目的jar     

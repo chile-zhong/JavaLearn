@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/Springboot5_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/Springboot6_jpa/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_aop/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_transaction/pom.xml" />
       </list>
     </option>
   </component>
